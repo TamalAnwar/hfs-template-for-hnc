@@ -1,0 +1,78 @@
+/*
+Color scheme:
+Teal #0198a3
+#007982
+Deep #003c41 
+Orange #ec762d
+
+*/
+
+@import 'normalize.css';
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+    'Lucida Sans', Arial, sans-serif;
+}
+
+.container {
+  width: 1000px;
+  margin: 0 auto;
+  background: #007982;
+  max-width: 100%;
+}
+
+.top-bar,
+#site-header-area {
+  padding: 10px;
+}
+
+#header {
+}
+
+.top-bar {
+  background: #003c41;
+  color: #ffffff;
+}
+
+#site-header-area {
+  /* There will be 2 sections */
+  background: #0198a3;
+  display: grid;
+  grid-template-columns: 7fr 3fr;
+}
+
+.site-title {
+  margin: 0;
+}
+
+#menu {
+  background: #007982;
+}
+
+#slide-show {
+  min-height: 200px;
+  background: #efefef;
+  margin: 5px;
+  padding: 5px;
+}
+
+#content-area {
+  /* There will be 2 sections here  */
+  min-height: 400px;
+  background: #efefef;
+  margin: 5px;
+  padding: 5px;
+
+  display: grid;
+  grid-template-columns: 7fr 3fr;
+}
+
+#content {
+}
+
+#sidebar {
+}
